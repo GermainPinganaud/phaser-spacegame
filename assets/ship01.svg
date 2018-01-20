@@ -1,4 +1,8 @@
-<?xml version="1.0" standalone="yes"?>
-
-<svg version="1.1" viewBox="0.0 0.0 100.0 110.97112860892389" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="p.0"><path d="m0 0l100.0 0l0 110.97113l-100.0 0l0 -110.97113z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l100.0 0l0 110.97113l-100.0 0z" fill-rule="evenodd"></path><path fill="#000000" fill-opacity="0.0" d="m10.488189 110.808395l39.51181 -110.64567l39.51181 110.64567z" fill-rule="evenodd"></path><path stroke="#00ff00" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m10.488189 110.808395l39.51181 -110.64567l39.51181 110.64567z" fill-rule="evenodd"></path></g></svg>
-
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <title>Ship01</title>
+ <g>
+  <title>Layer 1</title>
+  <path fill-opacity="0" id="svg_1" d="m10.499996,52.374985l21.500019,-40.749969l21.499992,40.749969l-43.000011,0z" stroke-width="3" stroke="#00ff00" fill="#000000"/>
+ </g>
+</svg>

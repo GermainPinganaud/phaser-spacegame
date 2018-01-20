@@ -1,8 +1,8 @@
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update:update });
 
 function preload() {
-    game.load.image('ship', 'assets/ship02.svg');
-    game.load.image('tinyship', 'assets/tinyship.png');
+    game.load.image('ship', 'assets/ship01.svg');
+    game.load.image('planet', 'assets/planet01.png');
 }
 
 var ship;
@@ -16,6 +16,8 @@ function create() {
     cursors = game.input.keyboard.createCursorKeys();
     ship = game.add.sprite(32, game.world.height - 150, 'ship');
     game.physics.p2.enable(ship);
+    planet = game.add.sprite(32, game.world.height - 450, 'planet');
+    game.physics.p2.enable(planet);
 };
 
 function update() {
@@ -30,8 +32,8 @@ function update() {
 };
 
 
-function moveBullets (bullet) {
-     accelerateToObject(bullet,ship,30);  //start accelerateToObject on every bullet
+function moveBullets (planet) {
+     accelerateToObject(ship,planet,30);  //start accelerateToObject on every bullet
 }
 
 function accelerateToObject(obj1, obj2, speed) {
